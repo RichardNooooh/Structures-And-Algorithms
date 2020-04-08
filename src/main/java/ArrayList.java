@@ -13,7 +13,7 @@ public class ArrayList<E>
 	public void add(E e)
 	{
 		//check capacity
-
+		checkCapacity();
 		con[size] = e;
 		size++;
 	}
@@ -21,6 +21,18 @@ public class ArrayList<E>
 	public E get(int index)
 	{
 		return con[index];
+	}
+
+	private void checkCapacity()
+	{
+		if (size == con.length)
+		{
+			E[] newCon = (E[]) new Object[con.length * 2];
+			for (int i = 0; i < con.length; i++)
+				newCon[i] = con[i];
+
+			con = newCon;
+		}
 	}
 
 }
