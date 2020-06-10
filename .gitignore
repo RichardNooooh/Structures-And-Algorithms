@@ -3,51 +3,51 @@
 
 ### IntelliJ ###
 # User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/shelf
+java/.idea/**/workspace.xml
+java/.idea/**/tasks.xml
+java/.idea/**/usage.statistics.xml
+java/.idea/**/shelf
 
 # IntelliJ
-out/
+java/out/
 
 # Generated files
-.idea/**/contentModel.xml
+java/.idea/**/contentModel.xml
 
 # Sensitive or high-churn files
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
+java/.idea/**/dataSources/
+java/.idea/**/dataSources.ids
+java/.idea/**/dataSources.local.xml
+java/.idea/**/sqlDataSources.xml
+java/.idea/**/dynamic.xml
+java/.idea/**/uiDesigner.xml
+java/.idea/**/dbnavigator.xml
 
 #Maven with auto-import
-.idea/modules.xml
-.idea/*.iml
-*.iml
-*.ipr
+java/.idea/modules.xml
+java/.idea/*.iml
+java/*.iml
+java/*.ipr
 
 #Other
-.idea/misc.xml
+java/.idea/misc.xml
 
 ### Maven ###
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
-.flattened-pom.xml
+java/target/
+java/pom.xml.tag
+java/pom.xml.releaseBackup
+java/pom.xml.versionsBackup
+java/pom.xml.next
+java/release.properties
+java/dependency-reduced-pom.xml
+java/buildNumber.properties
+java/.mvn/timing.properties
+java/.mvn/wrapper/maven-wrapper.jar
+java/.flattened-pom.xml
 
 ###Java###
 #Compiled class file
-*.class
+java/*.class
 
 # Log file
 *.log
